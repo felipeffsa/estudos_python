@@ -15,3 +15,15 @@ for indice,fruta in frutas_enumeradas:
 
 #Explicando o list comprehension
 #Lista_explica = [item for item in itens]
+
+# Como utilizar um if no list comprehension
+# Devemos lembrar que o if deve sempre ficar no final
+numeros = [numero for numero in range(1,11) if numero >3]
+
+print(numeros)
+
+# Como utilizar um if e else no list comprehension
+# Caso o else esteja junto do if, é necessario que os dois venham primeiro
+numeros = [numero*2 if numero>3 else "nada" for numero in range(1,11)]
+
+print(numeros)
