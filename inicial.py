@@ -1,1 +1,4 @@
-print("Olá mundo !")
+frutas = ["uva","melao","caju","mangaba"]
+felipe = "felipe"
+
+print(len(felipe))
